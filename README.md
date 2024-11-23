@@ -1,2 +1,2 @@
-# EvaCun
-Repository for the JupyterBook for EvaCun
+# Akkademia
+Repository for the JupyterBook for Akkademia
