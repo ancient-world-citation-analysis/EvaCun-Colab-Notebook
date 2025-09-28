@@ -3,19 +3,19 @@
 This repository contains a Colab- and Jupyter-friendly version of the **EvaCun** workflow notebook.
 It uses the upstream **Akkademia** project as a dependency, but prefers **your fork by default** if provided via env var.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ancient-world-citation-analysis/EvaCun-Jupyter-Notebook/blob/main/EvaCunNotebook_colab_github_ready.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ancient-world-citation-analysis/EvaCun-Jupyter-Notebook/blob/main/EvaCun_Colab_Notebook.ipynb)
 
 ---
 
 ## 📚 Notebooks
 
-* **Core setup & utilities (this repo)**
+* **Core setup & utilities (primary notebook)**
   `EvaCun_Colab_Notebook.ipynb`
   Use this to bootstrap the environment, manage paths, and run general EvaCun workflows.
 
-* **Translating Akkadian → English (sister repo)**
-  `3_Translating_Akkadian_to_English_using_NLP_EvaCun.ipynb`
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ancient-world-citation-analysis/EvaCun-Colab-Notebook/blob/main/3_Translating_Akkadian_to_English_using_NLP_EvaCun.ipynb)
+* **Translating Akkadian → English (secondary notebook)**
+  `EvaCun_Akkadian_to_English.ipynb`
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ancient-world-citation-analysis/EvaCun-Colab-Notebook/blob/main/EvaCun_Akkadian_to_English.ipynb)
   Runs the EvaCun translation workflow directly from the **EvaCun-Colab-Notebook** repository.
 
 ---
