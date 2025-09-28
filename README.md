@@ -1,5 +1,5 @@
-```markdown
 # EvaCun Colab Notebook
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ancient-world-citation-analysis/EvaCun-Colab-Notebook/blob/main/EvaCun_Colab_Notebook.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17220687.svg)](https://doi.org/10.5281/zenodo.17220687)
 
@@ -9,10 +9,10 @@ Colab- and Jupyter-friendly notebooks for **Akkadian → English** translation w
 
 ## 📚 Notebooks
 
-- **Environment & utilities**  
+* **Environment & utilities**
   `EvaCun_Colab_Notebook.ipynb` — sets up paths, installs dependencies, and includes the Zenodo download cell.
 
-- **Translating Akkadian → English**  
+* **Translating Akkadian → English**
   `EvaCun_Akkadian_to_English.ipynb` — runs the pretrained EvaCun translation workflow (transliteration & Unicode cuneiform → English).
 
 ---
@@ -21,19 +21,17 @@ Colab- and Jupyter-friendly notebooks for **Akkadian → English** translation w
 
 The train/validation datasets live on Zenodo and are downloaded automatically by the notebooks.
 
-- **Version DOI (pin for reproducibility):** https://doi.org/10.5281/zenodo.17220687
+* **Version DOI (pin for reproducibility):** [https://doi.org/10.5281/zenodo.17220687](https://doi.org/10.5281/zenodo.17220687)
 
 The notebooks fetch these files into `data/input/`:
 
 ```
-
 akkadian_train.txt
 transcription_train.txt
 english_train.txt
 akkadian_validation.txt
 transcription_validation.txt
 english_validation.txt
-
 ```
 
 > If you publish a new dataset version later, update `ZENODO_DOI_VERSION` in the “Fetch EvaCun datasets from Zenodo” cell near the top of each notebook.
@@ -44,10 +42,10 @@ english_validation.txt
 
 The first cell bootstraps the environment:
 
-- Detects whether you're running in Colab or local Jupyter.  
-- Clones this repo (or your override) so paths/imports resolve consistently.  
-- Installs dependencies if `requirements-colab.txt` or `requirements.txt` is present.  
-- Sets up a `data/` folder and path helpers.
+* Detects whether you're running in Colab or local Jupyter.
+* Clones this repo (or your override) so paths/imports resolve consistently.
+* Installs dependencies if `requirements-colab.txt` or `requirements.txt` is present.
+* Sets up a `data/` folder and path helpers.
 
 You can configure with environment variables (all optional):
 
@@ -162,5 +160,3 @@ Anderson, A. (2025). *EvaCun: ORACC Akkadian Parallel Corpus for Machine Transla
 ```
 
 > Acknowledge ORACC in publications: portions of the Akkadian material are derived from ORACC project exports; see the Zenodo record for provenance and licensing details.
-
-```
