@@ -6,3 +6,6 @@ data/outputs/**
 !data/
 !data/input/
 !data/outputs/
+
+# optional small samples for docs/tests
+!data/input/samples/**
