@@ -143,6 +143,7 @@ data/outputs/**
 ## 📄 How to cite the dataset
 
 **APA**
+
 Anderson, A. (2025). *EvaCun: ORACC Akkadian Parallel Corpus for Machine Translation (train/validation), v0.1* [Dataset]. Zenodo. [https://doi.org/10.5281/zenodo.17220687](https://doi.org/10.5281/zenodo.17220687)
 
 **BibTeX**
