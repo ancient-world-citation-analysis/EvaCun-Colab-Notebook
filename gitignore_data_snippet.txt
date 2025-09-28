@@ -1,0 +1,8 @@
+# EvaCun data (inputs/outputs should not be committed)
+data/input/**
+data/outputs/**
+
+# keep folder structure
+!data/
+!data/input/
+!data/outputs/
